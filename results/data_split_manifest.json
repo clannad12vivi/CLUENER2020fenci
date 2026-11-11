@@ -1,0 +1,12 @@
+{
+  "source": "data/train.json",
+  "seed": 42,
+  "validation_ratio": 0.1,
+  "internal_test_ratio": 0.1,
+  "official_train_samples": 10748,
+  "internal_train_samples": 8600,
+  "internal_validation_samples": 1074,
+  "internal_test_samples": 1074,
+  "final_fit_samples": 9674,
+  "official_dev_samples": 1343
+}

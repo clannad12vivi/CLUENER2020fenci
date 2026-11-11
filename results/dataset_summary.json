@@ -1,0 +1,67 @@
+{
+  "train": {
+    "samples": 10748,
+    "entity_counts": {
+      "address": 2891,
+      "book": 1139,
+      "company": 2980,
+      "game": 2376,
+      "government": 1835,
+      "movie": 1123,
+      "name": 3755,
+      "organization": 3210,
+      "position": 3141,
+      "scene": 1521
+    },
+    "samples_with_entity": {
+      "address": 2829,
+      "book": 1131,
+      "company": 2897,
+      "game": 2325,
+      "government": 1797,
+      "movie": 1109,
+      "name": 3661,
+      "organization": 3075,
+      "position": 3052,
+      "scene": 1462
+    },
+    "nested_overlap_pairs": 1,
+    "partial_overlap_pairs": 0
+  },
+  "dev": {
+    "samples": 1343,
+    "entity_counts": {
+      "address": 373,
+      "book": 154,
+      "company": 378,
+      "game": 295,
+      "government": 247,
+      "movie": 151,
+      "name": 465,
+      "organization": 367,
+      "position": 433,
+      "scene": 209
+    },
+    "samples_with_entity": {
+      "address": 364,
+      "book": 152,
+      "company": 366,
+      "game": 287,
+      "government": 244,
+      "movie": 150,
+      "name": 451,
+      "organization": 344,
+      "position": 425,
+      "scene": 199
+    },
+    "nested_overlap_pairs": 0,
+    "partial_overlap_pairs": 0
+  },
+  "test": {
+    "samples": 1345,
+    "entity_counts": {},
+    "samples_with_entity": {},
+    "nested_overlap_pairs": 0,
+    "partial_overlap_pairs": 0
+  }
+}

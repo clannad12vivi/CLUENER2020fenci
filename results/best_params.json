@@ -1,0 +1,15 @@
+{
+  "CRF": {
+    "c1": 0.1,
+    "c2": 0.1,
+    "max_iterations": 200
+  },
+  "HMM": {
+    "alpha": 0.01,
+    "observation_mode": "char"
+  },
+  "NaiveBayes": {
+    "alpha": 0.1,
+    "fit_prior": true
+  }
+}
